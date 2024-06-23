@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="PFE" company="Mellas_Samih" webLink="http://" view-date="2023-12-03" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[0]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#66ffff #ccffff #ff9999 #00cc66]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="10" name="Introduction General du Project" color="#ccffff" meeting="false" start="2023-12-09" duration="3" complete="75" thirdDate="2023-12-15" thirdDate-constraint="0" priority="3" expand="true"/>
+        <task id="2" name="diagramme bete a corne" color="#ff9999" meeting="false" start="2023-12-18" duration="1" complete="0" thirdDate="2023-12-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="0" name="diagramme pieuvre" color="#ff9999" meeting="false" start="2023-12-19" duration="2" complete="0" thirdDate="2023-12-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="3" name="diagramme SADT" color="#ff9999" meeting="false" start="2023-12-19" duration="1" complete="0" thirdDate="2023-12-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="1" name="diagramme FAST" color="#66ffff" meeting="false" start="2023-12-20" duration="3" complete="90" thirdDate="2023-12-15" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="4" name="SCHEMAS CINEMATIQUE" color="#8cb6ce" meeting="false" start="2023-12-29" duration="2" complete="0" thirdDate="2023-12-15" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Model 3D du SYSTEM SUR CATIA OU SOLIDWOKS" color="#8cb6ce" meeting="false" start="2024-01-11" duration="7" complete="0" thirdDate="2023-12-15" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="CALCULE DE PUISSANCE DU MOTEURS" color="#8cb6ce" meeting="false" start="2024-01-17" duration="5" complete="0" thirdDate="2023-12-15" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="CALCULE RDM DU BRAS" color="#8cb6ce" meeting="false" start="2024-01-24" duration="7" complete="0" thirdDate="2023-12-15" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="CIRCUIT DE COMMANDE NUMERIQUE(CIRCUIT ARDUINO)" color="#8cb6ce" meeting="false" start="2024-01-27" duration="10" complete="0" thirdDate="2023-11-28" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Samih Oussama" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Mellas Mohammed" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
