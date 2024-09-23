@@ -15,6 +15,3 @@ This project contains different file extensions for various software used. You w
 
 # Note
 This project is not completed.
-
-```markdown
-![Robot Model](Drawings\jpgs\BRAS-STATIQUE---MOTOR/BRAS STATIQUE - MOTOR_page-0001.jpg)
