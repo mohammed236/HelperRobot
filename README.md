@@ -17,4 +17,4 @@ This project contains different file extensions for various software used. You w
 This project is not completed.
 
 ```markdown
-![Robot Model](Simulation/Robot Simulation-1.mp4)
+![Robot Model](Drawings\jpgs\BRAS-STATIQUE---MOTOR/BRAS STATIQUE - MOTOR_page-0001.jpg)
